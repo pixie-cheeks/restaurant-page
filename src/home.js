@@ -11,6 +11,7 @@ description.textContent = "Welcome to Manoj's Chinese Restaurant, where the tant
 
 function loadHome() {
   contentDiv.append(headline, image, description);
+  contentDiv.classList.add('home-page');
 }
 
 export default loadHome;

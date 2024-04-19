@@ -12,6 +12,7 @@ image.src = friedRice;
 
 function loadMenu() {
   contentDiv.append(headline, description, image);
+  contentDiv.classList.add('menu-page');
 }
 
 export default loadMenu;

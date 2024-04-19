@@ -1,0 +1,11 @@
+.card {
+  margin: 2rem 0;
+}
+
+.title {
+  font-weight: 900;
+}
+
+#content.contact-page {
+  display: grid;
+}

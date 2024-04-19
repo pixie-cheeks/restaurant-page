@@ -1,3 +1,5 @@
+import './styles/contact.css';
+
 const contentDiv = document.querySelector('#content');
 const address = createCard('Address:', `Manoj's Chinese Restaurant
 123 Dragon Street, Chinatown
@@ -24,6 +26,7 @@ function createCard(title, description) {
 
 function loadContact() {
   contentDiv.append(address, phone, email, hours);
+  contentDiv.classList.add('contact-page');
 }
 
 export default loadContact;

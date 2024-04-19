@@ -1,6 +1,7 @@
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
 import loadContact from "./contact.js";
+import './styles/common.css';
 
 const contentDiv = document.querySelector('#content');
 const nav = document.querySelector('nav');
@@ -22,6 +23,7 @@ function switchTabs(event) {
 
 function render() {
   contentDiv.textContent = '';
+  contentDiv.className = '';
   switch (currentTab) {
     case 'home':
       loadHome();
